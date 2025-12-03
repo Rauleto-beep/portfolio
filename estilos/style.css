@@ -1,0 +1,62 @@
+/* CSS GENERAL  */
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.73); 
+}
+
+/* HEADER */
+header{  
+    background-color: rgb(34, 34, 34);/* Meterle opacidad y color oscuro*/
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 15px; 
+}
+
+.logo-info {
+    display: flex;
+    flex-direction: column; 
+    text-align: left; 
+}
+
+header p{
+    margin-top: 1px;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    align-items: center; 
+}
+
+/* AJUSTE GENERAL PARA EL MAIN  */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: top-center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* DIV - inicio  */
+.inicio{
+    margin-top: 0%;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.inicio button{
+    border-radius: 25px;
+    padding: 10px 15px;
+}
