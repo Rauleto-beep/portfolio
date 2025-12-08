@@ -42,7 +42,6 @@ header nav ul{
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: top-center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
@@ -51,12 +50,71 @@ header nav ul{
 /* DIV - inicio  */
 .inicio{
     margin-top: 0%;
+    margin-left: 50px;
     text-align: center;
-    width: 50%;
+    width: 40%;
     padding: 20px;
 }
 
-.inicio button{
+
+
+.inicio h1{
+    max-width: 420px;
+    /*padding-left: 160px;*/
+    color: rgb(255, 255, 255);
+}
+
+.inicio h1 span{
+    color: rgb(255, 243, 77); 
+}
+.inicio h2{
+    max-width: 300px;
+    padding-left: 50px;
+    display: flex; /* Habilita el alineamiento horizontal */
+    padding-left: 80px;
+}
+.botones-inicio{
+    float: left;
+    padding-left: 110px;
+}
+
+.botones-inicio button{
+    background-color:rgb(255, 184, 51);
     border-radius: 25px;
-    padding: 10px 15px;
+    
+    margin-right: 10px;
+    padding: 10px 15px;;
+    font-weight: 600;
+    font-size: 13px;
+
+    
+}
+
+.botones-inicio :hover{
+    color:white;
+    
+    transform: scale(1.20);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+    cursor:pointer;
+}
+
+/***DIV - INICIO+FOTO***/
+.inicio-confoto {
+    display: flex;
+    justify-content: center; /* Separa los elementos (texto y foto) */
+    align-items: center; /* Centra verticalmente el texto y la foto */
+    width: 80%; /* Para que ocupe menos y quede centrado */
+    margin: 50px auto; /* Centra horizontalmente y da un margen superior/inferior */
+}
+.foto{
+    display: block;
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border: 5px solid #908b8b;
+}
+
+.foto-container{
+    margin-right: 50px;
 }
